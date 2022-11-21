@@ -7,9 +7,9 @@ Tennis ladder is a tennis tournament score keeping application.
 3. Run!
 
 ## How to use
-You can create, edit and delete members.
-You can create matches between members.
-The ladder is reconfigured after every match.
+- You can create, edit and delete members.
+- You can create matches between members.
+- The ladder is reconfigured after every match.
 
 ## What the app looks like
 
