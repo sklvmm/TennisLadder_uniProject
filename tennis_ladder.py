@@ -17,7 +17,8 @@ class Main_Menu:
         self.root.iconbitmap("@/home/eskey0/Documents/Python Projects/Tennis_Ladder/images/icon.xbm")
         self.root.focus_force()
         #===Icons===
-        self.logo=ImageTk.PhotoImage(file="images/icon.ico")
+        self.logo=Image.open("/home/eskey0/Documents/Python Projects/Tennis_Ladder/images/icon.ico")
+        self.logo=ImageTk.PhotoImage(self.logo)
         #===Title===
         title=Label(self.root,text="Tennis Ladder Management System",padx=10,compound=LEFT,image=self.logo,font=("helvetica",20,"bold"),bg="#045cad",fg="white").place(x=0,y=0,relwidth=1,height=50)
         #===Menu===
@@ -31,7 +32,7 @@ class Main_Menu:
         btn_exit=Button(M_Frame,text="Exit",font=("helvetica",15),bg="#036eb9",fg="white",cursor="hand2",command=root.destroy).place(x=900,y=5,width=200,height=40)
 
         #===Content Window===
-        self.bg_img=Image.open("images/atptour.png")
+        self.bg_img=Image.open("/home/eskey0/Documents/Python Projects/Tennis_Ladder/images/atptour.png")
         self.bg_img=self.bg_img.resize((920,350),Image.ANTIALIAS)
         self.bg_img=ImageTk.PhotoImage(self.bg_img)
 

@@ -1,6 +1,6 @@
 from tkinter import*
 from PIL import Image,ImageTk
-from tkinter import ttk
+from tkinter import ttk,messagebox
 import sqlite3
 
 class LadderClass:
@@ -14,9 +14,9 @@ class LadderClass:
         #.focus_force() Πεταει το παραθυρο πανω απο απο το main window
         self.root.focus_force()
         #===Image===
-        self.logo=Image.open("images/racket.png")
+        self.logo=Image.open("/home/eskey0/Documents/Python Projects/Tennis_Ladder/images/racket.png")
         self.logo=self.logo.resize((200,100),Image.ANTIALIAS)
-        self.logo = ImageTk.PhotoImage(file="images/racket.png")
+        self.logo = ImageTk.PhotoImage(file="/home/eskey0/Documents/Python Projects/Tennis_Ladder/images/racket.png")
         #===Title===
         title=Label(self.root,text="Tournament Ladder Details",padx=10,compound=LEFT,image=self.logo,font=("helvetica",18,"bold"),bg="#045cad",fg="white").place(x=0,y=0,relwidth=1,height=50)
 

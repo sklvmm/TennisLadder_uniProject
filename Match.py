@@ -15,9 +15,9 @@ class MatchClass:
         #.focus_force() Πεταει το παραθυρο πανω απο απο το main window
         self.root.focus_force()
         #===Image===
-        self.logo=Image.open("images/vs.png")
+        self.logo=Image.open("/home/eskey0/Documents/Python Projects/Tennis_Ladder/images/vs.png")
         self.logo=self.logo.resize((200,100),Image.ANTIALIAS)
-        self.logo=ImageTk.PhotoImage(file="images/vs.png")
+        self.logo=ImageTk.PhotoImage(file="/home/eskey0/Documents/Python Projects/Tennis_Ladder/images/vs.png")
         #===Title===
         title=Label(self.root,text="Create and see Matches",padx=10,compound=LEFT,image=self.logo,font=("goudy old style",20,"bold"),bg="#045cad",fg="white").place(x=0,y=0,relwidth=1,height=50)
         #===Variables===
@@ -36,7 +36,7 @@ class MatchClass:
 
         #===Buttons===
         #add Button
-        self.btn_add=Button(self.root,text='Create Match',font=("goudy old style",15,"bold"),bg="#2196f3",fg="white",cursor="hand2",command=self.new_match)
+        self.btn_add=Button(self.root,text='Create Match',font=("goudy old style",12,"bold"),bg="#2196f3",fg="white",cursor="hand2",command=self.new_match)
         self.btn_add.place(x=70,y=380,width=130,height=40)
         #Clear Button
         self.btn_clear=Button(self.root,text='Clear',font=("goudy old style",15,"bold"),bg="#607d8b",fg="white",cursor="hand2",command=self.clear_data)
@@ -44,7 +44,7 @@ class MatchClass:
 
         #===Search=====
         self.var_search=StringVar()
-        lbl_search_firstName=Label(self.root,text="Search by Name:",font=("goudy old style",15,'bold'),bg='white').place(x=690,y=60)
+        lbl_search_firstName=Label(self.root,text="Search by Name:",font=("goudy old style",12,'bold'),bg='white').place(x=690,y=60)
         txt_firstName = Entry(self.root, textvariable=self.var_search, font=("goudy old style", 15, 'bold'),bg='lightyellow').place(x=840, y=60, width=220)
         btn_search=Button(self.root,text='Search',font=("goudy old style",15,"bold"),bg="#2196f3",fg="white",cursor="hand2",command=self.search).place(x=1070,y=60,width=90,height=28)
 
