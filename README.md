@@ -11,9 +11,13 @@ You can create, edit and delete members.
 You can create matches between members.
 The ladder is reconfigured after every match.
 
-# What the app looks like
+## What the app looks like
 
 ![alt_text](https://github.com/sklvmm/TennisLadder_uniProject/blob/main/images/showcase/mainWindow.png)
 ![alt_text](https://github.com/sklvmm/TennisLadder_uniProject/blob/main/images/showcase/manageMembers.png)
 ![alt_text](https://github.com/sklvmm/TennisLadder_uniProject/blob/main/images/showcase/Matches.png)
 ![alt_text](https://github.com/sklvmm/TennisLadder_uniProject/blob/main/images/showcase/Ladder.png)
+
+## Dependencies
+- Tkinter
+- PIL
