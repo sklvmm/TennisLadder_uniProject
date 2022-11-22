@@ -14,8 +14,14 @@ Tennis ladder is a tennis tournament score keeping application.
 ## What the app looks like
 
 ![alt_text](https://github.com/sklvmm/TennisLadder_uniProject/blob/main/images/showcase/mainWindow.png)
+
+
 ![alt_text](https://github.com/sklvmm/TennisLadder_uniProject/blob/main/images/showcase/manageMembers.png)
+
+
 ![alt_text](https://github.com/sklvmm/TennisLadder_uniProject/blob/main/images/showcase/Matches.png)
+
+
 ![alt_text](https://github.com/sklvmm/TennisLadder_uniProject/blob/main/images/showcase/Ladder.png)
 
 ## Dependencies
